@@ -31,4 +31,3 @@ decisionBodyId | int | ID number of the committee, where council has an ID of 0
 fromDate | date | Formatted as YYYY-MM-DD, e.g. 2014-02-01
 toDate | date | Formatted as YYYY-MM-DD, e.g. 2014-03-01
 memberId | int | ID number of the council/committee member
-
