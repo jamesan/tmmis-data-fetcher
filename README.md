@@ -1,8 +1,10 @@
 # TMMIS data fetcher
 
-A bash shell script to fetch data from the Toronto Meeting Management Information System (TMMIS).
+Fetches data from the Toronto Meeting Management Information System (TMMIS).
 
 **Requires curl.**
+
+Below, this documents (incompletely) the HTTP API of TMMIS.
 
 ## Preamble
 
@@ -25,7 +27,7 @@ Parameter | Type | Description
 function | enum | getMemberVoteReport
 download | enum | csv
 termId | int | ID number of the city council term, where the current term has an ID of 4
-decisionBodyId | int | ID number of the committee, where council has an ID of 0 
+decisionBodyId | int | ID number of the committee, where council has an ID of 0
 fromDate | date | Formatted as YYYY-MM-DD, e.g. 2014-02-01
 toDate | date | Formatted as YYYY-MM-DD, e.g. 2014-03-01
 memberId | int | ID number of the council/committee member
